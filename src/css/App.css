@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+
+  @media screen and (max-width: 960px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  .home {
+    display: flex;
+    height: 180vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #6d6e71fb;
+    font-size: 20px;
+  }
+
+  .content {
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6d6e71fb;
+    text-align: left;
+  }
+
+
+#padre {
+  display: table;
+  background-color:transparent;
+  height: 130px;
+}
+
+
+#hijo {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+  
+.Rectangul_top{
+  display: table;
+  background-color:#28586b;
+  color: white;
+  height: 100px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  margin-top: 10px;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  line-height: 2.3rem;
+}
+
+.center{
+  display: table;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+Button{
+  background-color: rgb(34, 34, 133);
+  color: white;
+  width: 220px;
+  height: 40px;
+  font-size: large;
+}
+
+
+
+
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+
+.Rectangul_top{
+  margin-top: 1px;
+}
+
+.About_rectangul_left { 
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+}
